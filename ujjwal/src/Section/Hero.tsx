@@ -7,6 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { useState } from "react";
 import { GoDotFill } from "react-icons/go";
 import { motion } from "motion/react"
+import { SiLeetcode } from "react-icons/si";
 export default function Hero() {   
     const [IsShow,setIshow]=useState(false)
   
@@ -48,6 +49,11 @@ export default function Hero() {
                 <Link to="https://x.com/Ujjwal_2061"  className="relative group "><RiTwitterXFill size={24} />
                 <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block text-black font-serif bg-white p-2 rounded text-xs">
                   Twitter
+                </span>
+                </Link>
+                <Link to="https://leetcode.com/u/ujjwalgaihre0/"  className="relative group "><SiLeetcode size={24} />
+                <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block text-black font-serif bg-white p-2 rounded text-xs">
+                  Leetcode
                 </span>
                 </Link>
             </div>

@@ -78,8 +78,8 @@ import { FaArrowRight } from "react-icons/fa";
                      </div>
                       <div className=" py-2">
                      <p className="px-2 py-1 text-zinc-400  text-[15px] md:text-[16px] font-medium">{project.description}</p>
-                     <div className="flex p-1 gap-2 ">{project.techStack.map((tech,idx)=>(
-                        <span key={idx} className="bg-zinc-700/40  shadow-2xl px-2  rounded-md ">{tech}</span>
+                     <div className="flex flex-wrap gap-2 ">{project.techStack.map((tech,idx)=>(
+                        <span key={idx} className="bg-zinc-700/40  text-center shadow-2xl px-2  rounded-md  ">{tech}</span>
                      ))}</div>
                      </div>
                     </div>
@@ -88,45 +88,6 @@ import { FaArrowRight } from "react-icons/fa";
              </motion.div>
          ):(
             null
-            // this for showing first 3 project 
-            // <motion.div
-            //   key="all"
-            // initial={{ opacity: 0, y: 20 }}
-            // animate={{ opacity: 1, y: 0 }}
-            // // exit={{ opacity: 0, y: -20 }}
-            // transition={{ duration: 0.3 ,delay:0.3}}>
-
-            // {allproject.map((project,index)=>{
-            //     return <div key={index} className="bg-zinc-800  hover:bg-zinc-900 bg-opacity-50 border-2  border-zinc-700 rounded-md  m-2">
-            //          <div className="px-3 py-4 cursor-pointer h-40  md:h-52 rounded-md ">
-            //          <img src={project.img}  className="object-cover w-full h-full rounded-lg"/>
-            //          </div>
-            //          <div className="px-2 rounded-md">
-            //          <div className=" px-1 flex items-center flex-row justify-between ">
-            //          <h1 className="text-2xl  flex gap-2 items-center font-semibold">{project.name}
-            //              <span className={` ${project.IsComplete==="Building" ?"bg-red-600 text-red-500 border-red-500":" bg-green-600 text-green-500  border-green-500"} text-sm mt-1.5 border px-2 items-center   bg-opacity-15  rounded-md flex gap-1`}>
-            //                  {project.IsComplete}<GoDotFill  className="mt-[3px]" /></span>
-            //          </h1>
-            //          <div className="flex gap-3   px-3">
-            //          <Link to={project.livelink}  target="_blank"  className="relative group "><TbBrandLivewire size={21} />
-            //          <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block text-black font-serif bg-white p-2 rounded text-xs">
-            //          Live
-            //          </span></Link>
-            //          <Link to={project.githublink} target="_blank"  className="relative group "><FaGithub size={20} />
-            //          <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block text-black font-serif bg-white p-2 rounded text-xs">
-            //              Github
-            //          </span>
-            //          </Link> 
-            //          </div>
-            //          </div>
-            //          <div className="border-2 ">
-
-                     
-            //          </div>
-            //          </div>
-            //      </div>
-            //  })}
-            //  </motion.div>
          )}
    
      </AnimatePresence>

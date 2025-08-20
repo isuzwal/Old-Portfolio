@@ -43,15 +43,6 @@ project2:{
     img:"Project2.png",
     techStack:["React","Node.Js","Tailwind","Express","MongoDB","Cloudinary","Zustand"]
 },
-project3:{
-    name:"MeetaLogic",
-    IsComplete:"Running",
-    description: "MeetaLogic is a visually engaging web project where I focused heavily on modern styling and smooth animations to enhance user experience. The goal was to create a clean, interactive interface that feels dynamic and polished. Using responsive design principles and subtle animation effects, I brought life to the layout, making it both functional and aesthetically pleasing.",
-    githublink:"https://github.com/ujjwal2061/MetaLogic",
-    livelink:"https://meta-logic-xi.vercel.app/",
-    img:"Project3.png",
-     techStack:["React","Motion","Tailwind"]
-},
 project4:{
     name:"Newly.io",
     IsComplete:"Running",

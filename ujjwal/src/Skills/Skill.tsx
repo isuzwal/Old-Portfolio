@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { FaReact, FaNodeJs, FaGitAlt, FaFigma, FaGithub } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaGitAlt, FaFigma, FaGithub ,FaJava} from "react-icons/fa";
 import { SiTypescript, SiJavascript, SiTailwindcss, SiExpress, SiFirebase, SiMongodb, SiPostman,  SiFramer, SiNextdotjs, SiVercel } from "react-icons/si";
 import { SiShadcnui ,SiPrisma } from "react-icons/si";
 import { SiRedis } from "react-icons/si";
@@ -12,6 +12,7 @@ const IconsMap:Record<string,ReactNode>={
     ReactJs: <FaReact size={20} />,
     JavaScript: <SiJavascript size={20}  />,
     TypeScript: <SiTypescript size={20}   />,
+    Java: <FaJava  size={20}/>,
     Tailwindcss: <SiTailwindcss  size={20}/>,
     NodeJs: <FaNodeJs size={20} />,
     ExpressJs: <SiExpress  size={20} />,
