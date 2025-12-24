@@ -10,3 +10,7 @@ This is my personal portfolio website, built using **React + TypeScript**, style
 
 
 Feel free to explore and get in touch! 🚀
+
+# Image
+
+<img width="585" height="484" alt="image" src="https://github.com/user-attachments/assets/2e523219-73b1-4671-aec6-cae2251b700a" />
